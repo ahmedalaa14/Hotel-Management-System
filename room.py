@@ -314,7 +314,7 @@ class RoomBooking:
         con.commit()
         self.fetch_data()
         con.close()
-    #   =============== reset
+    #  =============== reset
     def reset(self):
         self.var_contact.set(""),
         self.var_checkin.set(""),
